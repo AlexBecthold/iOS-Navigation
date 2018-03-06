@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1095F0204EFBA800DBAA39 /* JFTrackerViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1095EF204EFBA800DBAA39 /* JFTrackerViewControllerTableViewController.swift */; };
+		3F1095F2204EFBF800DBAA39 /* RecordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1095F1204EFBF800DBAA39 /* RecordTableViewController.swift */; };
 		3F13CA81204E363900A70DE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13CA80204E363900A70DE8 /* AppDelegate.swift */; };
 		3F13CA83204E363900A70DE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13CA82204E363900A70DE8 /* ViewController.swift */; };
 		3F13CA86204E363900A70DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F13CA84204E363900A70DE8 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F1095EF204EFBA800DBAA39 /* JFTrackerViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFTrackerViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		3F1095F1204EFBF800DBAA39 /* RecordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewController.swift; sourceTree = "<group>"; };
 		3F13CA7D204E363900A70DE8 /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F13CA80204E363900A70DE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F13CA82204E363900A70DE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 				3F13CA89204E363900A70DE8 /* LaunchScreen.storyboard */,
 				3F13CA8C204E363900A70DE8 /* Info.plist */,
 				3F13CAAE204E366100A70DE8 /* Model.swift */,
+				3F1095EF204EFBA800DBAA39 /* JFTrackerViewControllerTableViewController.swift */,
+				3F1095F1204EFBF800DBAA39 /* RecordTableViewController.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F13CAAF204E366100A70DE8 /* Model.swift in Sources */,
+				3F1095F0204EFBA800DBAA39 /* JFTrackerViewControllerTableViewController.swift in Sources */,
 				3F13CA83204E363900A70DE8 /* ViewController.swift in Sources */,
 				3F13CA81204E363900A70DE8 /* AppDelegate.swift in Sources */,
+				3F1095F2204EFBF800DBAA39 /* RecordTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

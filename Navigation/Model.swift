@@ -16,10 +16,14 @@ struct FoodData {
 
 class FoodRecorder {
     
-    private var foods:[FoodData]
+    var foods:[FoodData]
     
     init() {
         foods = []
+    }
+    
+    func numFoods() -> Int {
+        return foods.count
     }
     
     func loadData() {
